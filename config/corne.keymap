@@ -45,7 +45,7 @@
         };
 
         vol_dn {
-            bindings = <&kp LS(C_VOL_DN)>;
+            bindings = <&kp C_VOL_DN>;
             key-positions = <35 34>;
         };
 
