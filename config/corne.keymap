@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         En {
-            bindings = <&kp LG(F1)>;
+            bindings = <&kp ESC>;
             key-positions = <0 1>;
             timeout-ms = <0>;
             layers = <0>;
@@ -90,7 +90,7 @@
         };
 
         bk_slash {
-            bindings = <&kp NON_US_BACKSLASH>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <4 17>;
         };
     };
