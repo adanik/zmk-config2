@@ -93,6 +93,26 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <4 17>;
         };
+
+        st_L4 {
+            bindings = <&sl 4>;
+            key-positions = <36 37>;
+        };
+
+        st_L5 {
+            bindings = <&sl 5>;
+            key-positions = <40 41>;
+        };
+
+        tog_L6 {
+            bindings = <&tog 6>;
+            key-positions = <37 38>;
+        };
+
+        tog_L7 {
+            bindings = <&tog 7>;
+            key-positions = <39 40>;
+        };
     };
 
     keymap {
@@ -148,11 +168,29 @@
 &bt BT_CLR    &bt BT_SEL 0  &trans  &none   &none   &kp C_VOL_DN     &kp C_VOL_UP  &none       &none   &kp C_PLAY_PAUSE  &kp LS(PRINTSCREEN)  &kp K_CONTEXT_MENU
 &bt BT_SEL 1  &bt BT_SEL 2  &trans  &none   &none   &kp C_BRI_DEC    &kp C_BRI_UP  &none       &none   &none             &none                &none
 &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &none   &kp C_PREV       &kp C_NEXT    &kp C_MUTE  &none   &none             &none                &none
-                                    &tog 4  &trans  &trans           &trans        &trans      &tog 5
+                                    &trans  &trans  &trans           &trans        &trans      &trans
             >;
         };
 
         layer_4 {
+            bindings = <
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp LG(NUMBER_0)  &trans
+&trans  &trans            &trans            &trans            &trans            &trans        &trans            &trans            &trans            &trans            &trans            &trans
+&trans  &trans            &trans            &trans            &trans            &trans        &trans            &trans            &trans            &trans            &trans            &trans
+                                            &trans            &trans            &trans        &trans            &trans            &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &kp LG(LS(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))    &kp LS(LG(NUMBER_6))  &kp LS(LG(NUMBER_7))  &kp LS(LG(NUMBER_8))  &kp LG(LS(NUMBER_9))  &kp LS(LG(NUMBER_0))  &trans
+&trans  &trans                &trans                &trans                &trans                &trans                  &trans                &trans                &trans                &trans                &trans                &trans
+&trans  &trans                &trans                &trans                &trans                &trans                  &trans                &trans                &trans                &trans                &trans                &trans
+                                                    &trans                &trans                &trans                  &trans                &trans                &trans
+            >;
+        };
+
+        layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT   &kp BACKSPACE
 &trans  &trans  &trans  &trans  &trans  &trans    &kp DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp PLUS
@@ -161,11 +199,11 @@
             >;
         };
 
-        layer_5 {
+        layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans          &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans          &kp UP_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
