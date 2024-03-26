@@ -94,23 +94,13 @@
             key-positions = <4 17>;
         };
 
-        st_L4 {
+        tog_L4 {
             bindings = <&sl 4>;
-            key-positions = <36 37>;
-        };
-
-        st_L5 {
-            bindings = <&sl 5>;
-            key-positions = <40 41>;
-        };
-
-        tog_L6 {
-            bindings = <&tog 6>;
             key-positions = <37 38>;
         };
 
-        tog_L7 {
-            bindings = <&tog 7>;
+        tog_L5 {
+            bindings = <&tog 5>;
             key-positions = <39 40>;
         };
     };
@@ -174,10 +164,10 @@
 
         layer_4 {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp LG(NUMBER_0)  &trans
-&trans  &trans            &trans            &trans            &trans            &trans        &trans            &trans            &trans            &trans            &trans            &trans
-&trans  &trans            &trans            &trans            &trans            &trans        &trans            &trans            &trans            &trans            &trans            &trans
-                                            &trans            &trans            &trans        &trans            &trans            &trans
+&trans  &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))      &kp LG(LS(NUMBER_6))  &kp LG(LS(NUMBER_7))  &kp LG(LS(NUMBER_8))  &kp LG(LS(NUMBER_9))  &kp LG(LS(NUMBER_0))  &trans
+&trans  &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(NUMBER_5)    &kp LG(NUMBER_6)      &kp LG(NUMBER_7)      &kp LG(NUMBER_8)      &kp LG(NUMBER_9)      &kp LG(NUMBER_0)      &trans
+&trans  &trans                &trans                &trans                &trans                &trans              &trans                &trans                &trans                &trans                &trans                &trans
+                                                    &trans                &trans                &trans              &trans                &trans                &trans
             >;
         };
 
