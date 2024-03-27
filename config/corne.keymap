@@ -12,11 +12,10 @@
     combos {
         compatible = "zmk,combos";
 
-        En {
-            bindings = <&kp ESC>;
+        Esc {
+            bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
             timeout-ms = <0>;
-            layers = <0>;
         };
 
         Ru {
@@ -146,10 +145,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp F11    &kp F12  &kp F13   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp MINUS       &kp UNDERSCORE  &kp EQUAL     &kp PLUS   &kp PRINTSCREEN       &kp DELETE
-&kp LCTRL   &kp GRAVE  &none    &none     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp PIPE              &kp RIGHT_CONTROL
-&kp LSHFT   &kp TILDE  &none    &none     &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &kp NON_US_BACKSLASH  &kp RIGHT_SHIFT
-                                &kp LGUI  &trans                &kp SPACE                &kp ENTER       &trans          &kp RALT
+&kp GRAVE  &kp F11  &kp F12               &kp F13                &kp F14           &kp F15              &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &kp PRINTSCREEN       &kp DELETE
+&kp LCTRL  &trans   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp GRAVE             &kp TILDE
+&kp LSHFT  &trans   &kp LESS_THAN         &kp GREATER_THAN       &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp MINUS       &kp UNDERSCORE  &kp EQUAL     &kp PLUS   &kp NON_US_BACKSLASH  &kp PIPE
+                                          &kp LGUI               &trans            &kp SPACE            &kp ENTER       &trans          &kp RALT
             >;
         };
 
