@@ -36,7 +36,7 @@
 
         play {
             bindings = <&kp C_PLAY_PAUSE>;
-            key-positions = <6 18 30>;
+            key-positions = <5 29>;
         };
 
         vol_up {
@@ -94,19 +94,9 @@
             key-positions = <4 17>;
         };
 
-        sl_L4 {
-            bindings = <&sl 4>;
-            key-positions = <37 38>;
-        };
-
-        tog_L5 {
-            bindings = <&tog 5>;
-            key-positions = <39 40>;
-        };
-
-        OFF {
+        left_soff {
             bindings = <&soft_off>;
-            key-positions = <0 5 38>;
+            key-positions = <0 38>;
         };
 
         delete {
@@ -116,7 +106,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <5 17>;
+            key-positions = <11 23>;
         };
 
         break {
@@ -124,9 +114,19 @@
             key-positions = <11 10 9>;
         };
 
-        right-soff {
+        right_soff {
             bindings = <&soft_off>;
-            key-positions = <6 11 39>;
+            key-positions = <11 39>;
+        };
+
+        play_next {
+            bindings = <&kp C_NEXT>;
+            key-positions = <5 17>;
+        };
+
+        play_previous {
+            bindings = <&kp C_PREVIOUS>;
+            key-positions = <17 29>;
         };
     };
 
