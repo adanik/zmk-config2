@@ -106,7 +106,7 @@
 
         OFF {
             bindings = <&soft_off>;
-            key-positions = <0 5>;
+            key-positions = <0 5 38>;
         };
 
         delete {
@@ -122,6 +122,11 @@
         break {
             bindings = <&kp PAUSE_BREAK>;
             key-positions = <11 10 9>;
+        };
+
+        right-soff {
+            bindings = <&soft_off>;
+            key-positions = <6 11 39>;
         };
     };
 
