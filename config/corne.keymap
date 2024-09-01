@@ -66,21 +66,11 @@
 
         left_figure {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <18 19>;
-        };
-
-        right_brace {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <19 20>;
-        };
-
-        left_parent {
-            bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <30 31>;
         };
 
-        right_parent {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+        right_figure {
+            bindings = <&kp RIGHT_BRACE>;
             key-positions = <31 32>;
         };
 
