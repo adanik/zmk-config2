@@ -150,10 +150,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE      &kp Q            &kp W            &kp E         &kp R              &kp T        &kp Y    &kp U               &kp I                &kp O             &kp P                     &kp BSPC
-&hrm LCTRL TAB  &hrm LEFT_WIN A  &hrm LEFT_ALT S  &hrm LCTRL D  &hrm LEFT_SHIFT F  &kp G        &kp H    &hrm RIGHT_SHIFT J  &hrm RCTRL K         &hrm RIGHT_ALT L  &hrm RIGHT_WIN SEMICOLON  &hrm RCTRL SQT
-&mo 4           &kp Z            &kp X            &kp C         &kp V              &kp B        &kp N    &kp M               &kp COMMA            &kp DOT           &kp FSLH                  &mo 4
-                                                  &kp LGUI      &mo 1              &kp SPACE    &kp RET  &mo 2               &hrm RIGHT_ALT PIPE
+&kp ESCAPE      &kp Q            &kp W            &kp E         &kp R              &kp T        &kp Y    &kp U               &kp I         &kp O             &kp P                     &kp BSPC
+&hrm LCTRL TAB  &hrm LEFT_WIN A  &hrm LEFT_ALT S  &hrm LCTRL D  &hrm LEFT_SHIFT F  &kp G        &kp H    &hrm RIGHT_SHIFT J  &hrm RCTRL K  &hrm RIGHT_ALT L  &hrm RIGHT_WIN SEMICOLON  &hrm RCTRL SQT
+&kp LEFT_WIN    &kp Z            &kp X            &kp C         &kp V              &kp B        &kp N    &kp M               &kp COMMA     &kp DOT           &kp FSLH                  &kp BSLH
+                                                  &mo 4         &mo 1              &kp SPACE    &kp RET  &mo 2               &mo 4
             >;
         };
 
@@ -165,10 +165,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT        &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp INSERT
-&kp LA(TAB)  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp F12
-&trans       &kp F1           &kp F2        &kp F3        &kp F4        &kp F5             &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &kp F11
-                                            &trans        &trans        &kp PRINTSCREEN    &trans        &trans         &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT        &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp INSERT
+&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp F12
+&kp LWIN   &kp F1           &kp F2        &kp F3        &kp F4        &kp F5             &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &kp F11
+                                          &trans        &trans        &kp PRINTSCREEN    &trans        &trans         &trans
             >;
         };
 
@@ -187,7 +187,7 @@
             >;
         };
 
-        both {
+        media {
             bindings = <
 &bt BT_NXT    &none    &none    &none    &none    &kp C_BRI_UP      &kp C_VOL_UP  &kp C_NEXT        &none  &none  &none  &kp LS(LC(LG(NUMBER_1)))
 &bt BT_SEL 0  &kp F17  &kp F19  &kp F20  &kp F21  &kp C_BRI_AUTO    &kp C_MUTE    &kp C_PLAY_PAUSE  &none  &none  &none  &kp LS(LC(LG(NUMBER_2)))
@@ -196,7 +196,7 @@
             >;
         };
 
-        layer_5 {
+        wm {
             bindings = <
 &trans  &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))    &kp LG(LS(NUMBER_5))  &kp LG(LS(NUMBER_6))  &kp LG(LS(NUMBER_7))  &kp LG(LS(NUMBER_8))  &kp LG(LS(NUMBER_9))  &none
 &trans  &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)        &kp LG(N5)            &kp LG(NUMBER_6)      &kp LG(N7)            &kp LG(NUMBER_8)      &kp LG(NUMBER_9)      &none
