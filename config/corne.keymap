@@ -90,7 +90,7 @@
 
         left_screen {
             bindings = <&kp LC(LS(LG(LEFT)))>;
-            key-positions = <0 38>;
+            key-positions = <38 5>;
         };
 
         insert {
@@ -105,7 +105,7 @@
 
         right_screen {
             bindings = <&kp LS(LC(LG(RIGHT)))>;
-            key-positions = <11 39>;
+            key-positions = <39 6>;
         };
 
         play_next {
@@ -123,9 +123,24 @@
             key-positions = <36 41>;
         };
 
-        soft_off_all {
+        soft_off_right {
             bindings = <&soft_off>;
-            key-positions = <0 11>;
+            key-positions = <11 39>;
+        };
+
+        capslock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <0 24>;
+        };
+
+        soft_off_left {
+            bindings = <&soft_off>;
+            key-positions = <0 38>;
+        };
+
+        context {
+            bindings = <&kp K_APP>;
+            key-positions = <11 35>;
         };
     };
 
