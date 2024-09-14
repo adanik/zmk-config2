@@ -175,9 +175,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&hrm LEFT_GUI ESCAPE      &kp Q            &kp W            &kp E           &kp R              &kp T        &kp Y    &kp U               &kp I         &kp O             &kp P                     &kp BACKSPACE
-&hrm LCTRL TAB            &hrm LEFT_WIN A  &hrm LEFT_ALT S  &hrm LCTRL D    &hrm LEFT_SHIFT F  &kp G        &kp H    &hrm RIGHT_SHIFT J  &hrm RCTRL K  &hrm RIGHT_ALT L  &hrm RIGHT_WIN SEMICOLON  &hrm RCTRL SQT
-&hrm LEFT_SHIFT CAPSLOCK  &kp Z            &kp X            &kp C           &kp V              &kp B        &kp N    &kp M               &kp COMMA     &kp DOT           &kp FSLH                  &hrm RIGHT_SHIFT BACKSLASH
+&hrm LEFT_GUI ESCAPE      &kp Q            &kp W            &kp F           &kp P              &kp B        &kp J    &kp L               &kp U         &kp Y             &kp SEMICOLON     &kp BACKSPACE
+&hrm LCTRL TAB            &hrm LEFT_WIN A  &hrm LEFT_ALT R  &hrm LCTRL S    &hrm LEFT_SHIFT T  &kp G        &kp M    &hrm RIGHT_SHIFT N  &hrm RCTRL E  &hrm RIGHT_ALT I  &hrm RIGHT_WIN O  &hrm RCTRL SQT
+&hrm LEFT_SHIFT CAPSLOCK  &kp Z            &kp X            &kp C           &kp D              &kp V        &kp K    &kp H               &kp COMMA     &kp DOT           &kp FSLH          &hrm RIGHT_SHIFT BACKSLASH
                                                             &lt 3 LEFT_GUI  &mo 1              &kp SPACE    &kp RET  &mo 2               &sl 3
             >;
         };
