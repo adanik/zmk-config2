@@ -221,7 +221,7 @@
 &kp LA(LS(TAB))  &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))    &kp LG(LS(NUMBER_6))  &kp LG(LS(N7))  &kp LG(LS(N8))  &kp LG(LS(N9))  &kp LG(LS(N0))  &kp RA(TAB)
 &kp LG(TAB)      &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(N5)        &kp LG(NUMBER_6)      &kp LG(N7)      &kp LG(N8)      &kp LG(N9)      &kp LG(N0)      &kp RG(TAB)
 &kp LA(TAB)      &kp LG(LC(NUMBER_1))  &kp LG(LC(NUMBER_2))  &kp LG(LC(NUMBER_3))  &kp LG(LC(NUMBER_4))  &kp LG(LC(N5))    &kp LG(LC(NUMBER_6))  &kp LG(LC(N7))  &kp LG(LC(N8))  &kp LG(LC(N9))  &kp LG(LC(N0))  &kp RS(RA(TAB))
-                                                             &kp K_APP             &kp LG(D)             &kp LG(LS(V))     &kp LG(C)             &kp LG(Z)       &none
+                                                             &kp K_APP             &kp LG(LS(V))         &kp LG(D)         &kp LG(S)             &kp LG(LS(R))   &kp LG(C)
             >;
         };
 
