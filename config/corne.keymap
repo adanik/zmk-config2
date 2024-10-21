@@ -197,7 +197,7 @@
 &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT        &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
 &kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp MINUS
 &kp F11    &kp F1           &kp F2        &kp F3        &kp F4        &kp F5             &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &kp F12
-                                          &kp LG(S)     &trans        &kp PRINTSCREEN    &caps_word    &kp CAPSLOCK   &trans
+                                          &kp LG(S)     &trans        &kp PRINTSCREEN    &caps_word    &trans         &kp CAPSLOCK
             >;
         };
 
@@ -209,10 +209,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F23  &kp F21  &kp F22  &kp F13  &kp F14  &kp F15    &kp HOME           &kp PAGE_DOWN   &kp PAGE_UP     &kp END       &kp PAUSE_BREAK  &kp INSERT
-&kp F24  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp LEFT_ARROW     &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT     &mkp MB4         &mkp MB5
-&trans   &trans   &trans   &trans   &trans   &trans     &kp MINUS          &kp PLUS        &kp UNDERSCORE  &kp ASTERISK  &kp BACKSLASH    &kp EQUAL
-                           &trans   &trans   &trans     &kp LG(LS(ENTER))  &trans          &kp LG(ENTER)
+&kp F23  &kp F21  &kp F22  &kp F13         &kp F14  &kp F15           &kp HOME           &kp PAGE_DOWN   &kp PAGE_UP     &kp END       &kp PAUSE_BREAK  &kp INSERT
+&kp F24  &kp F16  &kp F17  &kp F18         &kp F19  &kp F20           &kp LEFT_ARROW     &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT     &mkp MB4         &mkp MB5
+&trans   &trans   &trans   &trans          &trans   &trans            &kp MINUS          &kp PLUS        &kp UNDERSCORE  &kp ASTERISK  &kp BACKSLASH    &kp EQUAL
+                           &kp RC(INSERT)  &trans   &kp RS(INSERT)    &kp LG(LS(ENTER))  &trans          &kp LG(ENTER)
             >;
         };
 
@@ -236,10 +236,10 @@
 
         media {
             bindings = <
-&bt BT_SEL 0        &bt BT_SEL 1              &bt BT_SEL 2              &bt BT_SEL 3              &bt BT_SEL 4              &bt BT_NXT            &kp C_VOL_UP  &kp C_NEXT         &kp C_BRIGHTNESS_INC  &ext_power EP_ON   &none  &kp K_LOCK
-&kp LS(LC(LG(N0)))  &kp LS(LC(LG(NUMBER_1)))  &kp LC(LS(LG(NUMBER_2)))  &kp LS(LG(LC(NUMBER_3)))  &kp LS(LC(LG(NUMBER_4)))  &kp LS(LC(LG(N5)))    &kp C_MUTE    &kp C_PLAY_PAUSE   &kp C_BRI_AUTO        &ext_power EP_TOG  &none  &sys_reset
-&none               &none                     &none                     &none                     &none                     &none                 &kp C_VOL_DN  &kp C_PREV         &kp C_BRI_DEC         &ext_power EP_OFF  &none  &soft_off
-                                                                        &trans                    &trans                    &trans                &sl 5         &kp LG(LS(ENTER))  &none
+&bt BT_SEL 0        &bt BT_SEL 1              &bt BT_SEL 2              &bt BT_SEL 3              &bt BT_SEL 4              &bt BT_NXT            &kp C_VOL_UP  &kp C_NEXT        &kp C_BRIGHTNESS_INC  &ext_power EP_ON   &none  &kp K_LOCK
+&kp LS(LC(LG(N0)))  &kp LS(LC(LG(NUMBER_1)))  &kp LC(LS(LG(NUMBER_2)))  &kp LS(LG(LC(NUMBER_3)))  &kp LS(LC(LG(NUMBER_4)))  &kp LS(LC(LG(N5)))    &kp C_MUTE    &kp C_PLAY_PAUSE  &kp C_BRI_AUTO        &ext_power EP_TOG  &none  &sys_reset
+&none               &none                     &none                     &none                     &none                     &none                 &kp C_VOL_DN  &kp C_PREV        &kp C_BRI_DEC         &ext_power EP_OFF  &none  &soft_off
+                                                                        &trans                    &trans                    &trans                &trans        &trans            &none
             >;
         };
     };
