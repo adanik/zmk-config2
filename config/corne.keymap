@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 
 / {
     combos {
@@ -219,10 +218,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE        &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT       &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAUSE_BREAK
-&kp GRAVE        &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6    &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp MINUS
-&kp PRINTSCREEN  &kp F1           &kp F2        &kp F3        &kp F4        &kp F5            &kp F6          &kp F7         &kp F8        &kp F9                &kp F10                &kp EQUAL
-                                                &mkp MB4      &trans        &kp RC(INSERT)    &kp RS(INSERT)  &trans         &mkp MB5
+&kp TILDE        &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp DOLLAR    &kp PERCENT     &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&kp GRAVE        &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp MINUS
+&kp PRINTSCREEN  &kp F1           &kp F2        &kp F3                &kp F4        &kp F5          &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &kp PAUSE_BREAK
+                                                &kp LG(SINGLE_QUOTE)  &trans        &kp LG(Z)       &trans        &trans         &trans
             >;
         };
 
@@ -234,16 +233,16 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &trans  &trans  &trans    &trans  &trans            &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp END    &trans         &kp DELETE
-&trans      &trans  &trans  &trans    &trans  &trans            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT  &kp PIPE       &trans
-&caps_word  &trans  &trans  &trans    &trans  &trans            &kp MINUS       &kp PLUS        &kp UNDERSCORE  &kp EQUAL  &kp BACKSLASH  &trans
-                            &mkp MB4  &trans  &kp RS(INSERT)    &kp RS(INSERT)  &trans          &mkp MB5
+&trans      &trans  &trans  &trans  &trans  &trans    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp END    &trans         &kp DELETE
+&trans      &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT  &kp PIPE       &trans
+&caps_word  &trans  &trans  &trans  &trans  &trans    &kp MINUS       &kp PLUS        &kp UNDERSCORE  &kp EQUAL  &kp BACKSLASH  &trans
+                            &trans  &trans  &trans    &kp RC(INSERT)  &trans          &kp RS(INSERT)
             >;
         };
 
         wm {
             bindings = <
-&kp LA(TAB)  &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))    &kp LG(LS(NUMBER_6))  &kp LG(LS(N7))  &kp LG(LS(N8))  &kp LG(LS(N9))  &kp LG(LS(N0))  &kp RA(RS(TAB))
+&kp LA(TAB)  &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))    &kp LG(LS(NUMBER_6))  &kp LG(LS(N7))  &kp LG(LS(N8))  &kp LG(LS(N9))  &kp LG(LS(N0))  &kp RA(TAB)
 &trans       &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(N5)        &kp LG(NUMBER_6)      &kp LG(N7)      &kp LG(N8)      &kp LG(N9)      &kp LG(N0)      &trans
 &kp LG(TAB)  &kp LG(LC(NUMBER_1))  &kp LG(LC(NUMBER_2))  &kp LG(LC(NUMBER_3))  &kp LG(LC(NUMBER_4))  &kp LG(LC(N5))    &kp LG(LC(NUMBER_6))  &kp LG(LC(N7))  &kp LG(LC(N8))  &kp LG(LC(N9))  &kp LG(LC(N0))  &kp RG(TAB)
                                                          &kp K_APP             &kp LG(LS(V))         &kp LG(D)         &kp LG(S)             &kp LG(LS(R))   &kp LG(C)
