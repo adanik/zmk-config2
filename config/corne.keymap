@@ -152,6 +152,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <8 9>;
         };
+
+        right_close {
+            bindings = <&kp LG(Q)>;
+            key-positions = <18 7>;
+        };
+
+        left_close {
+            bindings = <&kp LG(Q)>;
+            key-positions = <4 17>;
+        };
     };
 
     behaviors {
