@@ -228,10 +228,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE           &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp DOLLAR    &kp PERCENT     &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&kp GRAVE           &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp MINUS
-&kp K_CONTEXT_MENU  &kp F1           &kp F2        &kp F3                &kp F4        &kp F5          &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &kp PERIOD
-                                                   &kp LG(SINGLE_QUOTE)  &trans        &kp LG(Z)       &trans        &trans         &trans
+&kp TILDE           &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp DOLLAR    &kp PERCENT       &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&kp GRAVE           &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp MINUS
+&kp K_CONTEXT_MENU  &kp F1           &kp F2        &kp F3          &kp F4        &kp F5            &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &kp PERIOD
+                                                   &kp RC(INSERT)  &trans        &kp RS(INSERT)    &trans        &trans         &trans
             >;
         };
 
@@ -246,7 +246,7 @@
 &trans      &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp END    &trans         &kp DELETE
 &trans      &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT  &kp PIPE       &kp PAUSE_BREAK
 &caps_word  &kp F21  &kp F22  &kp F23  &kp F24  &trans     &kp MINUS       &kp PLUS        &kp UNDERSCORE  &kp EQUAL  &kp BACKSLASH  &kp PRINTSCREEN
-                              &trans   &trans   &trans     &kp RC(INSERT)  &trans          &kp RS(INSERT)
+                              &trans   &trans   &trans     &kp LG(Z)       &trans          &kp LG(RETURN)
             >;
         };
 
