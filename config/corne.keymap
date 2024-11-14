@@ -80,7 +80,7 @@
 
         break {
             bindings = <&kp PAUSE_BREAK>;
-            key-positions = <11 10>;
+            key-positions = <10 11>;
         };
 
         right_screen {
@@ -180,12 +180,12 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <10 11>;
+            key-positions = <34 35>;
         };
 
         back_slash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <34 35>;
+            key-positions = <34 33>;
         };
     };
 
