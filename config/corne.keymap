@@ -261,10 +261,10 @@
 
         numbers {
             bindings = <
-&none  &none  &none  &none   &none   &none     &kp DOLLAR   &kp N7        &kp N8        &kp N9        &kp PLUS   &kp BACKSPACE
-&none  &none  &none  &none   &none   &none     &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH  &kp ASTERISK
-&none  &none  &none  &none   &none   &none     &kp CARET    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp EQUAL
-                     &trans  &trans  &trans    &kp ENTER    &kp NUMBER_0  &kp PERIOD
+&none  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp DOLLAR   &kp N7        &kp N8        &kp N9        &kp PLUS   &kp BACKSPACE
+&none  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH  &kp ASTERISK
+&none  &kp F21  &kp F22  &kp F23  &kp F24  &none      &kp CARET    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp EQUAL
+                         &trans   &trans   &trans     &kp ENTER    &kp NUMBER_0  &kp PERIOD
             >;
         };
 
