@@ -15,22 +15,22 @@
 
         en {
             bindings = <&kp LG(F1)>;
-            key-positions = <5 6>;
+            key-positions = <37 15>;
         };
 
         Ru {
             bindings = <&kp LG(F2)>;
-            key-positions = <17 18>;
+            key-positions = <37 16>;
         };
 
         Ua {
             bindings = <&kp LG(F3)>;
-            key-positions = <29 30>;
+            key-positions = <37 14>;
         };
 
         switch_layout {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <38 39>;
+            key-positions = <40 19>;
         };
 
         play {
@@ -74,8 +74,8 @@
         };
 
         left_screen {
-            bindings = <&kp LC(LS(LG(LEFT)))>;
-            key-positions = <37 16>;
+            bindings = <&kp LC(LS(LG(BACKSLASH)))>;
+            key-positions = <4 17>;
         };
 
         break {
@@ -84,8 +84,8 @@
         };
 
         right_screen {
-            bindings = <&kp LS(LC(LG(RIGHT)))>;
-            key-positions = <40 19>;
+            bindings = <&kp SLASH>;
+            key-positions = <18 7>;
         };
 
         play_next {
@@ -105,12 +105,12 @@
 
         soft_off_right {
             bindings = <&soft_off>;
-            key-positions = <11 39>;
+            key-positions = <11 39 41>;
         };
 
         soft_off_left {
             bindings = <&soft_off>;
-            key-positions = <0 38>;
+            key-positions = <0 38 36>;
         };
 
         par_left {
@@ -139,18 +139,18 @@
         };
 
         underscore {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp EQUAL>;
             key-positions = <32 33>;
         };
 
         right_close {
             bindings = <&kp LG(Q)>;
-            key-positions = <18 7>;
+            key-positions = <39 11>;
         };
 
         left_close {
             bindings = <&kp LG(Q)>;
-            key-positions = <4 17>;
+            key-positions = <38 0>;
         };
 
         left_angle_br {
@@ -173,19 +173,14 @@
             key-positions = <16 17>;
         };
 
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <22 23>;
+        under {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <34 35>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <34 35>;
-        };
-
-        back_slash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <34 33>;
+            key-positions = <35 23>;
         };
 
         win {
@@ -282,10 +277,10 @@
 
         wm {
             bindings = <
-&kp LA(TAB)      &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))    &kp LG(LS(NUMBER_6))  &kp LG(LS(N7))  &kp LG(LS(N8))     &kp LG(LS(N9))  &kp LG(LS(N0))  &kp LA(TAB)
-&kp LS(LA(TAB))  &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(N5)        &kp LG(NUMBER_6)      &kp LG(N7)      &kp LG(N8)         &kp LG(N9)      &kp LG(N0)      &kp LA(LS(TAB))
-&kp LG(TAB)      &kp LG(LC(NUMBER_1))  &kp LG(LC(NUMBER_2))  &kp LG(LC(NUMBER_3))  &kp LG(LC(NUMBER_4))  &kp LG(LC(N5))    &kp LG(LC(NUMBER_6))  &kp LG(LC(N7))  &kp LG(LC(N8))     &kp LG(LC(N9))  &kp LG(LC(N0))  &kp LG(TAB)
-                                                             &kp LG(LS(LC(J)))     &kp RC(INSERT)        &kp RS(INSERT)    &kp LG(ENTER)         &kp LG(Z)       &kp LG(LS(LC(K)))
+&kp LA(TAB)      &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))    &kp LG(LS(NUMBER_6))  &kp LG(LS(N7))  &kp LG(LS(N8))         &kp LG(LS(N9))  &kp LG(LS(N0))  &kp LA(TAB)
+&kp LS(LA(TAB))  &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(N5)        &kp LG(NUMBER_6)      &kp LG(N7)      &kp LG(N8)             &kp LG(N9)      &kp LG(N0)      &kp LA(LS(TAB))
+&kp LG(TAB)      &kp LG(LC(NUMBER_1))  &kp LG(LC(NUMBER_2))  &kp LG(LC(NUMBER_3))  &kp LG(LC(NUMBER_4))  &kp LG(LC(N5))    &kp LG(LC(NUMBER_6))  &kp LG(LC(N7))  &kp LG(LC(N8))         &kp LG(LC(N9))  &kp LG(LC(N0))  &kp LG(TAB)
+                                                             &kp LG(LS(LC(J)))     &kp RC(INSERT)        &kp RS(INSERT)    &kp LG(ENTER)         &kp LG(Z)       &kp LG(LS(LC(RIGHT)))
             >;
         };
 
