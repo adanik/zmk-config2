@@ -15,12 +15,12 @@
 
         en {
             bindings = <&kp LG(F1)>;
-            key-positions = <37 15>;
+            key-positions = <37 16>;
         };
 
         Ru {
             bindings = <&kp LG(F2)>;
-            key-positions = <37 16>;
+            key-positions = <37 15>;
         };
 
         Ua {
@@ -30,7 +30,7 @@
 
         switch_layout {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <40 19>;
+            key-positions = <37 17>;
         };
 
         play {
@@ -123,11 +123,6 @@
             key-positions = <31 32>;
         };
 
-        numlock {
-            bindings = <&tog 4>;
-            key-positions = <36 38>;
-        };
-
         caps {
             bindings = <&caps_word>;
             key-positions = <16 19>;
@@ -186,6 +181,26 @@
         win {
             bindings = <&kp LEFT_WIN>;
             key-positions = <13 22>;
+        };
+
+        ukr_2 {
+            bindings = <&kp LG(F3)>;
+            key-positions = <40 21>;
+        };
+
+        rus_2 {
+            bindings = <&kp LG(F2)>;
+            key-positions = <40 20>;
+        };
+
+        eng_2 {
+            bindings = <&kp LG(F1)>;
+            key-positions = <40 19>;
+        };
+
+        switch_layout_2 {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <40 18>;
         };
     };
 
@@ -284,15 +299,6 @@
             >;
         };
 
-        numbers {
-            bindings = <
-&none  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp DOLLAR   &kp N7        &kp N8        &kp N9        &kp PLUS   &kp BACKSPACE
-&none  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH  &kp ASTERISK
-&none  &kp F21  &kp F22  &kp F23  &kp F24  &none      &kp CARET    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp EQUAL
-                         &trans   &trans   &trans     &kp ENTER    &kp NUMBER_0  &kp PERIOD
-            >;
-        };
-
         media {
             bindings = <
 &bt BT_SEL 0        &bt BT_SEL 1              &bt BT_SEL 2              &bt BT_SEL 3              &bt BT_SEL 4              &bt BT_NXT            &kp C_VOL_UP  &kp C_NEXT        &kp C_BRIGHTNESS_INC  &ext_power EP_ON   &none  &kp K_LOCK
@@ -308,7 +314,7 @@
 
         media_layer {
             if-layers = <1 2>;
-            then-layer = <5>;
+            then-layer = <4>;
         };
     };
 };
