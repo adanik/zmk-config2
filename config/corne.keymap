@@ -105,12 +105,12 @@
 
         soft_off_right {
             bindings = <&soft_off>;
-            key-positions = <11 39 41>;
+            key-positions = <11 39 6>;
         };
 
         soft_off_left {
             bindings = <&soft_off>;
-            key-positions = <0 38 36>;
+            key-positions = <0 38 5>;
         };
 
         par_left {
