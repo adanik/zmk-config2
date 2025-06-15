@@ -158,6 +158,11 @@
             bindings = <&kp GREATER_THAN>;
             key-positions = <34 35>;
         };
+
+        switch_layout2 {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <37 16>;
+        };
     };
 
     behaviors {
