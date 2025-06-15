@@ -14,17 +14,17 @@
     combos {
         compatible = "zmk,combos";
 
-        en {
+        en_left {
             bindings = <&kp LG(F1)>;
             key-positions = <37 17>;
         };
 
-        Ru {
+        ru_left {
             bindings = <&kp LG(F2)>;
             key-positions = <37 16>;
         };
 
-        Ua {
+        ua_left {
             bindings = <&kp LG(F3)>;
             key-positions = <37 15>;
         };
@@ -62,16 +62,6 @@
         Right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <7 8>;
-        };
-
-        left_figure {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <4 3>;
-        };
-
-        right_figure {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <4 5>;
         };
 
         break {
@@ -114,7 +104,7 @@
             key-positions = <31 32>;
         };
 
-        caps {
+        caps_word {
             bindings = <&caps_word>;
             key-positions = <16 19>;
         };
@@ -154,27 +144,27 @@
             key-positions = <13 22>;
         };
 
-        UA {
+        ua_right {
             bindings = <&kp LG(F3)>;
             key-positions = <40 20>;
         };
 
-        RU {
+        ru_right {
             bindings = <&kp LG(F2)>;
             key-positions = <40 19>;
         };
 
-        EN {
+        en_right {
             bindings = <&kp LG(F1)>;
             key-positions = <40 18>;
         };
 
-        PL {
+        pl_right {
             bindings = <&kp LG(F4)>;
             key-positions = <40 21>;
         };
 
-        DE {
+        de_right {
             bindings = <&kp LG(F5)>;
             key-positions = <40 22>;
         };
