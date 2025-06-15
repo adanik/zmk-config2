@@ -175,32 +175,32 @@
 
         UA {
             bindings = <&kp LG(F3)>;
-            key-positions = <40 21>;
+            key-positions = <40 20>;
         };
 
         RU {
             bindings = <&kp LG(F2)>;
-            key-positions = <40 20>;
+            key-positions = <40 19>;
         };
 
         EN {
             bindings = <&kp LG(F1)>;
-            key-positions = <40 19>;
+            key-positions = <40 18>;
         };
 
         layout_switch {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <40 18>;
+            key-positions = <17 18>;
         };
 
         PL {
             bindings = <&kp LG(F4)>;
-            key-positions = <22 40>;
+            key-positions = <40 21>;
         };
 
         DE {
             bindings = <&kp LG(F5)>;
-            key-positions = <40 23>;
+            key-positions = <40 22>;
         };
 
         right_brace {
@@ -293,9 +293,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp END    &kp SLASH      &kp DELETE
-&trans      &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT  &kp PIPE       &kp PAUSE_BREAK
-&caps_word  &kp F21  &kp F22  &kp F23  &kp F24  &trans     &kp MINUS       &kp PLUS        &kp UNDERSCORE  &kp EQUAL  &kp BACKSLASH  &kp PRINTSCREEN
+&trans      &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp END    &kp PAUSE_BREAK  &kp DELETE
+&trans      &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT  &kp PIPE         &kp K_APP
+&caps_word  &kp F21  &kp F22  &kp F23  &kp F24  &trans     &kp MINUS       &kp PLUS        &kp UNDERSCORE  &kp EQUAL  &kp BACKSLASH    &kp PRINTSCREEN
                               &trans   &trans   &trans     &kp LG(R)       &trans          &kp LG(LS(O))
             >;
         };
