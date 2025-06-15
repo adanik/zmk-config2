@@ -15,22 +15,22 @@
 
         en {
             bindings = <&kp LG(F1)>;
-            key-positions = <37 16>;
+            key-positions = <37 17>;
         };
 
         Ru {
             bindings = <&kp LG(F2)>;
-            key-positions = <37 15>;
+            key-positions = <37 16>;
         };
 
         Ua {
             bindings = <&kp LG(F3)>;
-            key-positions = <37 14>;
+            key-positions = <37 15>;
         };
 
         switch_layout {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <37 17>;
+            key-positions = <37 40>;
         };
 
         play {
@@ -73,19 +73,9 @@
             key-positions = <4 5>;
         };
 
-        back_slash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <4 17>;
-        };
-
         break {
             bindings = <&kp PAUSE_BREAK>;
             key-positions = <10 11>;
-        };
-
-        right_screen {
-            bindings = <&kp SLASH>;
-            key-positions = <18 7>;
         };
 
         play_next {
@@ -148,16 +138,6 @@
             key-positions = <38 0>;
         };
 
-        left_angle_br {
-            bindings = <&kp LESS_THAN>;
-            key-positions = <27 28>;
-        };
-
-        right_angle_br {
-            bindings = <&kp GREATER_THAN>;
-            key-positions = <28 29>;
-        };
-
         colon {
             bindings = <&kp COLON>;
             key-positions = <18 19>;
@@ -186,11 +166,6 @@
         EN {
             bindings = <&kp LG(F1)>;
             key-positions = <40 18>;
-        };
-
-        layout_switch {
-            bindings = <&kp LG(SPACE)>;
-            key-positions = <17 18>;
         };
 
         PL {
@@ -265,7 +240,7 @@
             bindings = <
 &hr_mod LEFT_WIN ESCAPE  &kp Q               &kp W               &kp E            &kp R                 &kp T        &kp Y      &kp U                  &kp I            &kp O                &kp P                        &kp BACKSPACE
 &kp TAB                  &hr_mod LEFT_WIN A  &hr_mod LEFT_ALT S  &hr_mod LCTRL D  &hr_mod LEFT_SHIFT F  &kp G        &kp H      &hr_mod RIGHT_SHIFT J  &hr_mod RCTRL K  &hr_mod RIGHT_ALT L  &hr_mod RIGHT_WIN SEMICOLON  &kp SINGLE_QUOTE
-&kp LCTRL                &kp Z               &kp X               &kp C            &kp V                 &kp B        &kp N      &kp M                  &kp COMMA        &kp DOT              &kp FSLH                     &hr_mod RIGHT_SHIFT INSERT
+&kp LCTRL                &kp Z               &kp X               &kp C            &kp V                 &kp B        &kp N      &kp M                  &kp COMMA        &kp DOT              &kp FSLH                     &kp RIGHT_SHIFT
                                                                  &sl 3            &mo 1                 &kp SPACE    &kp ENTER  &mo 2                  &sl 3
             >;
         };
@@ -278,10 +253,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE           &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT     &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&kp GRAVE           &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp MINUS
-&kp K_CONTEXT_MENU  &kp F1           &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &kp PERIOD
-                                                   &kp LG(D)     &trans        &kp LG(S)       &trans        &trans         &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT     &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp MINUS
+&trans     &kp F1           &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &trans
+                                          &kp LG(D)     &trans        &kp LG(S)       &trans        &trans         &tog 1
             >;
         };
 
@@ -293,10 +268,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp END    &kp PAUSE_BREAK  &kp DELETE
-&trans      &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT  &kp PIPE         &kp K_APP
-&caps_word  &kp F21  &kp F22  &kp F23  &kp F24  &trans     &kp MINUS       &kp PLUS        &kp UNDERSCORE  &kp EQUAL  &kp BACKSLASH    &kp PRINTSCREEN
-                              &trans   &trans   &trans     &kp LG(R)       &trans          &kp LG(LS(O))
+&kp PAUSE_BREAK  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp END    &kp INS        &kp DELETE
+&kp CAPSLOCK     &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT  &kp PIPE       &kp K_APP
+&trans           &kp F21  &kp F22  &kp F23  &kp F24  &trans     &kp MINUS       &kp PLUS        &kp UNDERSCORE  &kp EQUAL  &kp BACKSLASH  &kp PRINTSCREEN
+                                   &tog 2   &trans   &trans     &kp LG(R)       &trans          &kp LG(LS(O))
             >;
         };
 
