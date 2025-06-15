@@ -14,24 +14,24 @@
     combos {
         compatible = "zmk,combos";
 
-        en_left {
+        en {
             bindings = <&kp LG(F1)>;
             key-positions = <37 17>;
         };
 
-        ru_left {
+        ru {
             bindings = <&kp LG(F2)>;
-            key-positions = <37 16>;
+            key-positions = <40 18>;
         };
 
-        ua_left {
+        ua {
             bindings = <&kp LG(F3)>;
-            key-positions = <37 15>;
+            key-positions = <40 6>;
         };
 
         switch_layout {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <37 40>;
+            key-positions = <40 19>;
         };
 
         play {
@@ -56,17 +56,12 @@
 
         Left_braket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <6 7>;
+            key-positions = <7 8>;
         };
 
         Right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <7 8>;
-        };
-
-        break {
-            bindings = <&kp PAUSE_BREAK>;
-            key-positions = <10 11>;
+            key-positions = <8 9>;
         };
 
         play_next {
@@ -96,12 +91,12 @@
 
         par_left {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
         };
 
         par_right {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <31 32>;
+            key-positions = <32 33>;
         };
 
         caps_word {
@@ -111,12 +106,12 @@
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <8 9>;
+            key-positions = <9 10>;
         };
 
         lt {
             bindings = <&kp LESS_THAN>;
-            key-positions = <32 33>;
+            key-positions = <33 34>;
         };
 
         right_close {
@@ -144,39 +139,24 @@
             key-positions = <13 22>;
         };
 
-        ua_right {
-            bindings = <&kp LG(F3)>;
-            key-positions = <40 20>;
-        };
-
-        ru_right {
-            bindings = <&kp LG(F2)>;
-            key-positions = <40 19>;
-        };
-
-        en_right {
-            bindings = <&kp LG(F1)>;
-            key-positions = <40 18>;
-        };
-
-        pl_right {
+        pl {
             bindings = <&kp LG(F4)>;
-            key-positions = <40 21>;
+            key-positions = <5 37>;
         };
 
-        de_right {
+        de {
             bindings = <&kp LG(F5)>;
-            key-positions = <40 22>;
+            key-positions = <29 37>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <9 10>;
+            key-positions = <10 11>;
         };
 
         gt {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <33 34>;
+            key-positions = <34 35>;
         };
     };
 
