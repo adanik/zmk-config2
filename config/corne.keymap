@@ -252,9 +252,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp PAUSE_BREAK  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END         &kp SCROLLLOCK  &kp DELETE
-&kp CAPSLOCK     &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT       &kp PIPE        &kp K_APP
-&caps_word       &kp F21  &kp F22  &kp F23  &kp F24  &trans     &kp MINUS       &kp PLUS        &kp EQUAL     &kp UNDERSCORE  &kp BACKSLASH   &kp PRINTSCREEN
+&kp PAUSE_BREAK  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END         &kp PRINTSCREEN  &kp DELETE
+&kp CAPSLOCK     &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT       &kp K_APP        &kp SCROLLLOCK
+&caps_word       &kp F21  &kp F22  &kp F23  &kp F24  &trans     &kp MINUS       &kp PLUS        &kp EQUAL     &kp UNDERSCORE  &kp BACKSLASH    &kp PIPE
                                    &trans   &trans   &trans     &kp LG(R)       &trans          &kp LG(Z)
             >;
         };
