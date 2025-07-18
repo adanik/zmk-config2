@@ -171,6 +171,16 @@
             bindings = <&kp RS(INSERT)>;
             key-positions = <6 7>;
         };
+
+        tog-layer-3 {
+            bindings = <&tog 4>;
+            key-positions = <36 37>;
+        };
+
+        tog-layer-5 {
+            bindings = <&tog 5>;
+            key-positions = <40 41>;
+        };
     };
 
     behaviors {
@@ -225,7 +235,7 @@
 &kp ESCAPE        &kp Q               &kp W               &kp E            &kp R                 &kp T                     &kp Y                     &kp U                  &kp I            &kp O                &kp P                        &kp BACKSPACE
 &kp TAB           &hr_mod LEFT_WIN A  &hr_mod LEFT_ALT S  &hr_mod LCTRL D  &hr_mod LEFT_SHIFT F  &kp G                     &kp H                     &hr_mod RIGHT_SHIFT J  &hr_mod RCTRL K  &hr_mod RIGHT_ALT L  &hr_mod RIGHT_WIN SEMICOLON  &kp SINGLE_QUOTE
 &kp LEFT_CONTROL  &kp Z               &kp X               &kp C            &kp V                 &kp B                     &kp N                     &kp M                  &kp COMMA        &kp DOT              &kp FSLH                     &kp INS
-                                                          &sl 4            &mo 1                 &hr_mod LEFT_WIN SPACE    &hr_mod RIGHT_ALT RETURN  &mo 2                  &sl 4
+                                                          &sl 3            &mo 1                 &hr_mod LEFT_WIN SPACE    &hr_mod RIGHT_ALT RETURN  &mo 2                  &sl 3
             >;
         };
 
@@ -259,15 +269,6 @@
             >;
         };
 
-        media {
-            bindings = <
-&bt BT_SEL 0        &bt BT_SEL 1              &bt BT_SEL 2              &bt BT_SEL 3              &bt BT_SEL 4              &bt BT_NXT            &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT   &kp BACKSPACE
-&kp LS(LC(LG(N0)))  &kp LS(LC(LG(NUMBER_1)))  &kp LC(LS(LG(NUMBER_2)))  &kp LS(LG(LC(NUMBER_3)))  &kp LS(LC(LG(NUMBER_4)))  &kp LS(LC(LG(N5)))    &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp LEFT_PARENTHESIS
-&none               &none                     &none                     &none                     &none                     &none                 &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp RIGHT_PARENTHESIS
-                                                                        &none                     &trans                    &trans                &trans     &kp NUMBER_0  &kp PERIOD
-            >;
-        };
-
         wm_control {
             bindings = <
 &kp LA(TAB)       &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))    &kp LG(LS(NUMBER_6))  &kp LG(LS(N7))  &kp LG(LS(N8))         &kp LG(LS(N9))  &kp LG(LS(N0))  &kp LA(TAB)
@@ -276,14 +277,25 @@
                                                               &kp LG(LS(LC(LEFT)))  &kp LC(INSERT)        &kp LS(INSERT)    &kp LG(LC(ENTER))     &kp LG(Z)       &kp LG(LC(LS(RIGHT)))
             >;
         };
-    };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT   &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp LEFT_PARENTHESIS
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp RIGHT_PARENTHESIS
+                        &trans  &trans  &trans    &trans     &kp NUMBER_0  &kp PERIOD
+            >;
+        };
 
-        layer-media {
-            if-layers = <1 4>;
-            then-layer = <3>;
+        media {
+            bindings = <
+&bt BT_SEL 0        &bt BT_SEL 1              &bt BT_SEL 2              &bt BT_SEL 3              &bt BT_SEL 4              &bt BT_NXT            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LC(LG(N0)))  &kp LS(LC(LG(NUMBER_1)))  &kp LC(LS(LG(NUMBER_2)))  &kp LS(LG(LC(NUMBER_3)))  &kp LS(LC(LG(NUMBER_4)))  &kp LS(LC(LG(N5)))    &trans  &trans  &trans  &trans  &trans  &trans
+&none               &none                     &none                     &none                     &none                     &none                 &trans  &trans  &trans  &trans  &trans  &trans
+                                                                        &trans                    &trans                    &trans                &trans  &trans  &trans
+            >;
         };
     };
+
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
