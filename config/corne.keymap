@@ -177,8 +177,8 @@
             key-positions = <36 37>;
         };
 
-        tog-layer-5 {
-            bindings = <&tog 5>;
+        mo-layer-5 {
+            bindings = <&mo 5>;
             key-positions = <40 41>;
         };
     };
