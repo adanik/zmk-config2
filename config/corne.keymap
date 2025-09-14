@@ -173,7 +173,7 @@
         };
 
         tog-layer-3 {
-            bindings = <&tog 4>;
+            bindings = <&mo 4>;
             key-positions = <36 37>;
         };
 
