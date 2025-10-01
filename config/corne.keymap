@@ -181,6 +181,16 @@
             bindings = <&mo 5>;
             key-positions = <40 41>;
         };
+
+        switch_window {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <0 1>;
+        };
+
+        switch_screen {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <12 13>;
+        };
     };
 
     behaviors {
@@ -234,8 +244,8 @@
             bindings = <
 &kp ESCAPE        &kp Q               &kp W               &kp E            &kp R                 &kp T                     &kp Y                     &kp U                  &kp I            &kp O                &kp P                        &kp BACKSPACE
 &kp TAB           &hr_mod LEFT_WIN A  &hr_mod LEFT_ALT S  &hr_mod LCTRL D  &hr_mod LEFT_SHIFT F  &kp G                     &kp H                     &hr_mod RIGHT_SHIFT J  &hr_mod RCTRL K  &hr_mod RIGHT_ALT L  &hr_mod RIGHT_WIN SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_CONTROL  &kp Z               &kp X               &kp C            &kp V                 &kp B                     &kp N                     &kp M                  &kp COMMA        &kp DOT              &kp FSLH                     &kp INS
-                                                          &sl 3            &mo 1                 &hr_mod LEFT_WIN SPACE    &hr_mod RIGHT_ALT RETURN  &mo 2                  &sl 3
+&kp LEFT_CONTROL  &kp Z               &kp X               &kp C            &kp V                 &kp B                     &kp N                     &kp M                  &kp COMMA        &kp DOT              &kp FSLH                     &hr_mod RIGHT_ALT INSERT
+                                                          &sl 3            &mo 1                 &hr_mod LEFT_WIN SPACE    &hr_mod RIGHT_GUI RETURN  &mo 2                  &sl 3
             >;
         };
 
