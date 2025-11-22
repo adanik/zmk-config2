@@ -173,12 +173,12 @@
         };
 
         tog-layer-3 {
-            bindings = <&mo 4>;
+            bindings = <&mo 5>;
             key-positions = <36 37>;
         };
 
         mo-layer-5 {
-            bindings = <&mo 5>;
+            bindings = <&mo 6>;
             key-positions = <40 41>;
         };
 
@@ -245,7 +245,7 @@
 &kp ESCAPE        &kp Q               &kp W               &kp E            &kp R                 &kp T                     &kp Y                     &kp U                  &kp I            &kp O                &kp P                        &kp BACKSPACE
 &kp TAB           &hr_mod LEFT_WIN A  &hr_mod LEFT_ALT S  &hr_mod LCTRL D  &hr_mod LEFT_SHIFT F  &kp G                     &kp H                     &hr_mod RIGHT_SHIFT J  &hr_mod RCTRL K  &hr_mod RIGHT_ALT L  &hr_mod RIGHT_WIN SEMICOLON  &kp SINGLE_QUOTE
 &kp LEFT_CONTROL  &kp Z               &kp X               &kp C            &kp V                 &kp B                     &kp N                     &kp M                  &kp COMMA        &kp DOT              &kp FSLH                     &hr_mod RIGHT_ALT INSERT
-                                                          &sl 3            &mo 1                 &hr_mod LEFT_WIN SPACE    &hr_mod RIGHT_GUI RETURN  &mo 2                  &sl 3
+                                                          &sl 3            &mo 1                 &hr_mod LEFT_WIN SPACE    &hr_mod RIGHT_GUI RETURN  &mo 2                  &sl 4
             >;
         };
 
@@ -279,12 +279,21 @@
             >;
         };
 
-        wm_control {
+        wm_control_left {
             bindings = <
 &kp LA(TAB)       &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))    &kp LG(LS(NUMBER_6))  &kp LG(LS(N7))  &kp LG(LS(N8))         &kp LG(LS(N9))  &kp LG(LS(N0))  &kp LA(TAB)
 &kp LG(TAB)       &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(N5)        &kp LG(NUMBER_6)      &kp LG(N7)      &kp LG(N8)             &kp LG(N9)      &kp LG(N0)      &kp LG(TAB)
 &kp LG(LS(LEFT))  &kp LG(LC(NUMBER_1))  &kp LG(LC(NUMBER_2))  &kp LG(LC(NUMBER_3))  &kp LG(LC(NUMBER_4))  &kp LG(LC(N5))    &kp LG(LC(NUMBER_6))  &kp LG(LC(N7))  &kp LG(LC(N8))         &kp LG(LC(N9))  &kp LG(LC(N0))  &kp LG(LS(RIGHT))
                                                               &kp LG(LS(LC(LEFT)))  &kp LC(INSERT)        &kp LS(INSERT)    &kp LG(LC(ENTER))     &kp LG(Z)       &kp LG(LC(LS(RIGHT)))
+            >;
+        };
+
+        wm_control_right {
+            bindings = <
+&kp LA(TAB)       &kp LG(LS(LA(NUMBER_1)))  &kp LG(LS(LA(NUMBER_2)))  &kp LG(LS(LA(NUMBER_3)))  &kp LG(LS(LA(NUMBER_4)))  &kp LG(LS(LA(N5)))    &kp LG(LS(LA(NUMBER_6)))  &kp LG(LS(LA(N7)))  &kp LG(LS(LA(N8)))     &kp LG(LS(LA(N9)))  &kp LG(LS(LA(N0)))  &kp LA(TAB)
+&kp LG(TAB)       &kp LG(LA(NUMBER_1))      &kp LG(LA(NUMBER_2))      &kp LG(LA(NUMBER_3))      &kp LG(LA(NUMBER_4))      &kp LG(LA(N5))        &kp LG(LA(NUMBER_6))      &kp LG(LA(N7))      &kp LG(LA(N8))         &kp LG(LA(N9))      &kp LG(LA(N0))      &kp LG(TAB)
+&kp LG(LS(LEFT))  &kp LG(LC(LA(NUMBER_1)))  &kp LG(LC(LA(NUMBER_2)))  &kp LG(LC(LA(NUMBER_3)))  &kp LG(LC(LA(NUMBER_4)))  &kp LG(LC(LA(N5)))    &kp LG(LC(LA(NUMBER_6)))  &kp LG(LC(LA(N7)))  &kp LG(LC(LA(N8)))     &kp LG(LC(LA(N9)))  &kp LG(LC(LA(N0)))  &kp LG(LS(RIGHT))
+                                                                      &kp LG(LS(LC(LEFT)))      &kp LC(INSERT)            &kp LS(INSERT)        &kp LG(LC(ENTER))         &kp LG(Z)           &kp LG(LC(LS(RIGHT)))
             >;
         };
 
