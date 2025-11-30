@@ -54,12 +54,12 @@
 
         Left_braket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <7 8>;
+            key-positions = <8 19>;
         };
 
         Right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <8 9>;
+            key-positions = <31 20>;
         };
 
         play_next {
@@ -89,12 +89,12 @@
 
         par_left {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <31 32>;
+            key-positions = <18 7>;
         };
 
         par_right {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <32 33>;
+            key-positions = <30 19>;
         };
 
         caps_word {
@@ -104,12 +104,12 @@
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <9 10>;
+            key-positions = <9 20>;
         };
 
         lt {
             bindings = <&kp LESS_THAN>;
-            key-positions = <33 34>;
+            key-positions = <21 10>;
         };
 
         right_close {
@@ -149,12 +149,12 @@
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <10 11>;
+            key-positions = <21 32>;
         };
 
         gt {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <34 35>;
+            key-positions = <33 22>;
         };
 
         switch_layout2 {
