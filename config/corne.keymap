@@ -203,12 +203,12 @@
         };
 
         move_window_right {
-            bindings = <&kp LG(LS(UP_ARROW))>;
+            bindings = <&kp LG(LS(LC(UP_ARROW)))>;
             key-positions = <34 35>;
         };
 
         move_window_left {
-            bindings = <&kp LG(LS(DOWN))>;
+            bindings = <&kp LG(LS(LC(DOWN)))>;
             key-positions = <24 25>;
         };
     };
