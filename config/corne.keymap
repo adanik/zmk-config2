@@ -283,7 +283,7 @@
             bindings = <
 &kp LA(TAB)       &kp LG(LS(NUMBER_1))  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))    &kp LG(LS(NUMBER_6))  &kp LG(LS(N7))  &kp LG(LS(N8))         &kp LG(LS(N9))  &kp LG(LS(N0))  &kp LA(TAB)
 &kp LG(TAB)       &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(N5)        &kp LG(NUMBER_6)      &kp LG(N7)      &kp LG(N8)             &kp LG(N9)      &kp LG(N0)      &kp LG(TAB)
-&kp LG(LS(LEFT))  &kp LG(LC(NUMBER_1))  &kp LG(LC(NUMBER_2))  &kp LG(LC(NUMBER_3))  &kp LG(LC(NUMBER_4))  &kp LG(LC(N5))    &kp LG(LC(NUMBER_6))  &kp LG(LC(N7))  &kp LG(LC(N8))         &kp LG(LC(N9))  &kp LG(LC(N0))  &kp LG(LS(RIGHT))
+&kp LG(LS(DOWN))  &kp LG(LC(NUMBER_1))  &kp LG(LC(NUMBER_2))  &kp LG(LC(NUMBER_3))  &kp LG(LC(NUMBER_4))  &kp LG(LC(N5))    &kp LG(LC(NUMBER_6))  &kp LG(LC(N7))  &kp LG(LC(N8))         &kp LG(LC(N9))  &kp LG(LC(N0))  &kp LG(LS(UP))
                                                               &kp LG(LS(LC(LEFT)))  &kp LC(INSERT)        &kp LS(INSERT)    &kp LG(LC(ENTER))     &kp LG(Z)       &kp LG(LC(LS(RIGHT)))
             >;
         };
