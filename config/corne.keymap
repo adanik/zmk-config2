@@ -211,6 +211,36 @@
             bindings = <&kp LG(LS(LC(DOWN)))>;
             key-positions = <24 25>;
         };
+
+        next_workspace_right {
+            bindings = <&kp LA(LG(RIGHT))>;
+            key-positions = <8 9>;
+        };
+
+        prev_workspace_right {
+            bindings = <&kp LA(LG(LEFT))>;
+            key-positions = <7 8>;
+        };
+
+        prev_workspace_left {
+            bindings = <&kp LG(LA(LEFT))>;
+            key-positions = <2 3>;
+        };
+
+        next_workspace_left {
+            bindings = <&kp LG(LA(RIGHT))>;
+            key-positions = <3 4>;
+        };
+
+        move_next_mon {
+            bindings = <&kp LG(LS(LC(DOWN)))>;
+            key-positions = <4 5>;
+        };
+
+        move_prev_mon {
+            bindings = <&kp LG(LS(LC(UP)))>;
+            key-positions = <6 7>;
+        };
     };
 
     behaviors {
