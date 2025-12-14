@@ -234,7 +234,7 @@
 
         console_paste {
             bindings = <&kp LC(LS(V))>;
-            key-positions = <37 38>;
+            key-positions = <38 36>;
         };
     };
 
